@@ -8,6 +8,7 @@
 #include "Renderer.h"
 
 #include "VertexBuffer.h"
+#include "VertexBufferLayout.h"
 #include "IndexBuffer.h"
 #include "VertexArray.h"
 #include "Shader.h"
@@ -81,22 +82,19 @@ int main(void) {
     ib.Unbind();
     shader.Unbind();
     
+    Renderer renderer;
+    
     float r = 0.0f;
     float increment = 0.05f;
     
     while(!glfwWindowShouldClose(window)) {
-        GLCall(glClear(GL_COLOR_BUFFER_BIT));
+        renderer.Clear();
         
         // Use shader program to change the u_Color
         shader.Bind();
         shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
         
-        // Bind vao and ibo
-        va.Bind();
-        ib.Bind();
-        
-        // Send draw command
-        GLCall(glDrawElements(GL_TRIANGLES, sizeof(indices), GL_UNSIGNED_INT, nullptr));
+        renderer.Draw(va, ib, shader);
         
         // Logic to change color each frame
         if (r > 1.0f) {
@@ -114,3 +112,4 @@ int main(void) {
     glfwTerminate();
     return 0;
 }
+
