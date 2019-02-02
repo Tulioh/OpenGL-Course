@@ -13,6 +13,10 @@
 		59BA371C2200730D00B044DB /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BA3718220070DF00B044DB /* libglfw.3.3.dylib */; };
 		59BA372022010ED500B044DB /* Basic.shader in Sources */ = {isa = PBXBuildFile; fileRef = 59BA371F22010ED500B044DB /* Basic.shader */; };
 		59BA372322028BC300B044DB /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BA372122028BC300B044DB /* Renderer.cpp */; };
+		59BA372622028D2600B044DB /* VertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BA372422028D2600B044DB /* VertexBuffer.cpp */; };
+		59BA37292202916400B044DB /* IndexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BA37272202916300B044DB /* IndexBuffer.cpp */; };
+		59BA372C22033F9600B044DB /* VertexArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BA372A22033F9600B044DB /* VertexArray.cpp */; };
+		59BA373222034EC100B044DB /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59BA373022034EC100B044DB /* Shader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,15 @@
 		59BA371F22010ED500B044DB /* Basic.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = Basic.shader; sourceTree = "<group>"; };
 		59BA372122028BC300B044DB /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
 		59BA372222028BC300B044DB /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		59BA372422028D2600B044DB /* VertexBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertexBuffer.cpp; sourceTree = "<group>"; };
+		59BA372522028D2600B044DB /* VertexBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexBuffer.h; sourceTree = "<group>"; };
+		59BA37272202916300B044DB /* IndexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexBuffer.cpp; sourceTree = "<group>"; };
+		59BA37282202916300B044DB /* IndexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexBuffer.h; sourceTree = "<group>"; };
+		59BA372A22033F9600B044DB /* VertexArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertexArray.cpp; sourceTree = "<group>"; };
+		59BA372B22033F9600B044DB /* VertexArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexArray.h; sourceTree = "<group>"; };
+		59BA372E2203403400B044DB /* VertexBufferLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexBufferLayout.h; sourceTree = "<group>"; };
+		59BA373022034EC100B044DB /* Shader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		59BA373122034EC100B044DB /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,15 @@
 				59BA370121FF405900B044DB /* Application.cpp */,
 				59BA372122028BC300B044DB /* Renderer.cpp */,
 				59BA372222028BC300B044DB /* Renderer.h */,
+				59BA372422028D2600B044DB /* VertexBuffer.cpp */,
+				59BA372522028D2600B044DB /* VertexBuffer.h */,
+				59BA37272202916300B044DB /* IndexBuffer.cpp */,
+				59BA37282202916300B044DB /* IndexBuffer.h */,
+				59BA372A22033F9600B044DB /* VertexArray.cpp */,
+				59BA372B22033F9600B044DB /* VertexArray.h */,
+				59BA372E2203403400B044DB /* VertexBufferLayout.h */,
+				59BA373022034EC100B044DB /* Shader.cpp */,
+				59BA373122034EC100B044DB /* Shader.h */,
 			);
 			path = "opengl-course";
 			sourceTree = "<group>";
@@ -168,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59BA37292202916400B044DB /* IndexBuffer.cpp in Sources */,
+				59BA372C22033F9600B044DB /* VertexArray.cpp in Sources */,
 				59BA372322028BC300B044DB /* Renderer.cpp in Sources */,
+				59BA372622028D2600B044DB /* VertexBuffer.cpp in Sources */,
+				59BA373222034EC100B044DB /* Shader.cpp in Sources */,
 				59BA372022010ED500B044DB /* Basic.shader in Sources */,
 				59BA370221FF405900B044DB /* Application.cpp in Sources */,
 			);
