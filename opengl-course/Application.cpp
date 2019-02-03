@@ -148,8 +148,8 @@ int main(void) {
         
         {
             ImGui::Begin("Transform");
-            ImGui::SliderFloat3("Translation A", &translation.x, 0.0f, 960.0f);
-            ImGui::SliderFloat3("Translation B", &translation.x, 0.0f, 960.0f);
+            ImGui::SliderFloat3("Translation A", &translationA.x, 0.0f, 960.0f);
+            ImGui::SliderFloat3("Translation B", &translationB.x, 0.0f, 960.0f);
             ImGui::End();
         }
         

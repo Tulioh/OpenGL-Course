@@ -432,10 +432,7 @@
 		59BA36FE21FF405900B044DB /* opengl-course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "opengl-course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BA370121FF405900B044DB /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
 		59BA370921FF40A900B044DB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		59BA370B21FF432A00B044DB /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
 		59BA370D21FF436400B044DB /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
-		59BA371221FFF2C000B044DB /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		59BA371621FFF57900B044DB /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		59BA3718220070DF00B044DB /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../usr/local/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		59BA371F22010ED500B044DB /* Basic.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = Basic.shader; sourceTree = "<group>"; };
 		59BA372122028BC300B044DB /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
@@ -955,10 +952,7 @@
 			isa = PBXGroup;
 			children = (
 				59BA3718220070DF00B044DB /* libglfw.3.3.dylib */,
-				59BA371621FFF57900B044DB /* libglfw.3.2.dylib */,
-				59BA371221FFF2C000B044DB /* GLUT.framework */,
 				59BA370D21FF436400B044DB /* libGLEW.2.1.0.dylib */,
-				59BA370B21FF432A00B044DB /* libglfw3.a */,
 				59BA370921FF40A900B044DB /* OpenGL.framework */,
 			);
 			name = Frameworks;
